@@ -8,4 +8,4 @@ qmake "CONFIG+=nosound headless" Jamulus.pro
 make clean
 make
 sudo make install
-Jamulus -s
+Jamulus -s -u 50
