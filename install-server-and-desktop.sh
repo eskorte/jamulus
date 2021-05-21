@@ -13,7 +13,7 @@ wget https://xxxxxxxxxx/sp.carxp
 wget https://xxxxxxxxxx/jamulus-server-settings
 sudo dpkg -i zoom_amd64.deb
 sudo dpkg -i artyfx_1.3+git20190808.4_amd64.deb
-sudo apt-get -f install
+sudo apt-get -f --yes install
 tar xf Carla_2.2.0-linux64.tar.xz
 tar -xvf latest.tar.gz
 cd jamulus-latest
