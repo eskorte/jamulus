@@ -4,7 +4,7 @@ cd /install
 exec >> /install/log 2>&1
 pwd
 sudo apt-get update
-DEBIAN_FRONTEND=noninteractive sudo --preserve-env=DEBIAN_FRONTEND apt-get --yes install xfce4 x2goserver x2goserver-xsession build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev jack qjackctl firefox-esr xz-utils pulseaudio-module-jack x2goserver-desktopsharing klick chromium
+DEBIAN_FRONTEND=noninteractive sudo --preserve-env=DEBIAN_FRONTEND apt-get --yes install xfce4 x2goserver x2goserver-xsession build-essential qt5-qmake qtdeclarative5-dev qttools5-dev-tools libjack-jackd2-dev qjackctl firefox xz-utils pulseaudio-module-jack x2goserver-desktopsharing klick chromium-browser
 wget https://zoom.us/client/latest/zoom_amd64.deb
 wget https://github.com/falkTX/Carla/releases/download/v2.2.0/Carla_2.2.0-linux64.tar.xz
 wget https://github.com/corrados/jamulus/archive/latest.tar.gz
